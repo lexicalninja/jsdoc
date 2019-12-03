@@ -14,4 +14,4 @@ RUN npm i -g jsdoc
 
 COPY "entrypoint.sh" "/entrypoint.sh"
 
-ENTRYPOINT ["entrypoint.sh"]
+ENTRYPOINT ["/entrypoint.sh"]
