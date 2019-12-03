@@ -1,0 +1,6 @@
+  name: 'JSDoc action runner'
+  description: 'JSDoc docker env for running js doc scripts in GitHub actions'
+  runs:
+    using: 'docker'
+    image: 'Dockerfile'
+
