@@ -10,8 +10,8 @@ LABEL com.github.actions.description="JSDoc wrapper for GitHub Actions to run CL
 LABEL com.github.actions.icon="bug"
 LABEL com.github.actions.color="blue"
 
-RUN npm install -g jsdoc
+RUN npm i -g jsdoc
 
-COPY entrypoint.sh /entrypoint.sh
+COPY "entrypoint.sh" "/entrypoint.sh"
 
 ENTRYPOINT ["entrypoint.sh"]
