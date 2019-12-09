@@ -1,7 +1,8 @@
 #!/bin/sh -l
 
 set -e
-sh -c "cd functions"
+
+sh -c "cd functions/"
 
 sh -c "npm run build --if-present"
 
