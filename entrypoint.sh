@@ -2,9 +2,7 @@
 
 set -e
 
-sh -c "cd functions/"
-
-sh -c "npm run build --if-present"
+sh -c "cd functions/ && npm run build --if-present"
 
 sh -c "jsdoc -c jsdoc.json"
 
