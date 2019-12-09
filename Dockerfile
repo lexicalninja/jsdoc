@@ -11,6 +11,7 @@ LABEL com.github.actions.icon="bug"
 LABEL com.github.actions.color="blue"
 
 RUN npm i -g jsdoc
+RUN npm i -g firebase-tools
 
 COPY entrypoint.sh /entrypoint.sh
 
