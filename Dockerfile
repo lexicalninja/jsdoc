@@ -12,6 +12,6 @@ LABEL com.github.actions.color="blue"
 
 RUN npm i -g jsdoc
 
-COPY "entrypoint.sh" "/entrypoint.sh"
+COPY entrypoint.sh /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
