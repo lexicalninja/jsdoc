@@ -12,4 +12,6 @@ sh -c "npm run build --if-present"
 
 sh -c "jsdoc -c jsdoc.json"
 
+cd ../
+
 sh -c "firebase deploy --only hosting:functionDocs"
