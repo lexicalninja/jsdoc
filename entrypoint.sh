@@ -4,6 +4,8 @@ set -e
 
 cd functions
 
+sh -c "firebase use $*"
+
 sh -c "npm install"
 
 sh -c "npm run build --if-present"
