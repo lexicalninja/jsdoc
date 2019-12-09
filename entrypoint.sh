@@ -1,7 +1,8 @@
 #!/bin/sh -l
 
 set -e
-sh -c "cd functions"
+
+cd functions
 
 sh -c "npm install"
 
